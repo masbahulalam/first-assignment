@@ -132,3 +132,58 @@ body {
   height: 100%;
   border-radius:20px;
   object-fit: cover;} 
+ body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+
+
+  
+  .stats-section {
+  width: 1040px;
+  height: 360px;
+  padding: 40px 0;
+  margin: auto;
+  text-align: center;
+  background-color:rgb(187, 193, 230) ;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 0 10px;
+ }
+
+ .stats-title {
+  width: 856px;
+  height: 45px;
+  margin: 0 auto 40px;
+  font-size: 38px;
+  font-weight: bold;
+  }
+
+ .stats-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  gap: 80px;
+  padding: 40px 40px;
+ }
+
+ .stat-box {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 80px;
+  font-weight: bold;
+  height: 97px;
+  color: #2359e1;
+
+}
+
+.stat-label {
+  margin-top: 10px;
+  font-size: 16px;
+}
