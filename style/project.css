@@ -28,16 +28,12 @@ body {
   align-items: center;
   padding: 20px 32px; 
   margin: auto;
-  /* background-color: #ffffff; */
-  /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
-  
-  
-}
+  width: 0 2px 4px rgba(0,0,0,0.1); }
 
 .logo {
   font-weight:bolder;
   width: 99px;
-  height: 51px;
+  height: 51px; background-color: #ffffff;
   color: #3970f9;
   font-size: 20px;
 }
@@ -57,7 +53,7 @@ body {
   text-align: center;
   
 }
-*/
+ 
 .hero h1 {
   font-size: 32px;
   margin-bottom: 32px;
@@ -81,7 +77,58 @@ body {
   font-optical-sizing: auto;
   
   font-style: normal;
-  font-weight: 700px;
+  font-weight: 800px;
   font-size: 65px;
+  width: 905px
   ;
+  height: 105px;
 }
+.section-wrapper {
+  width: 1140px;
+  height: 328px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding: 40px 40px; 
+  
+  margin: 100px auto;
+}
+
+.text-section {
+  width: 517px;
+  /* height: 60px; */
+}
+
+
+.text-section h2 {
+  font-size: 42px;
+  font-weight: 700;
+  height: 49px;
+  margin: 0 0 10px;
+}
+
+.text-section p {
+  font-size: 24px;
+  font-weight: 400;
+  height: 60px;
+  margin: 0 0 20px;
+  color: #555;
+}
+
+.text-section .button {
+  height: 30px;
+  padding: 5px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.image-section img {
+  height: 100%;
+  border-radius:20px;
+  object-fit: cover;} 
