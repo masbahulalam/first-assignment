@@ -76,12 +76,12 @@ body {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   
-  font-style: normal;
-  font-weight: 800px;
-  font-size: 65px;
-  width: 905px
+  font-style:normal;
+  font-weight:bolder;
+  font-size: 80px;
+  width: 964px
   ;
-  height: 105px;
+  height: 135px;
 }
 .section-wrapper {
   width: 1140px;
@@ -186,4 +186,51 @@ body {
 .stat-label {
   margin-top: 10px;
   font-size: 16px;
+}
+  
+.testimonial-section {
+  width: 1040px;
+  height: 342px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.testimonial-title {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.testimonial-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.testimonial-box {
+  width: 30%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.stars {
+  color: gold;
+  font-size: 18px;
+}
+
+.testimonial-box h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.testimonial-box p {
+  font-size: 14px;
+  color: #555;
+}
+
+.reviewer {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
 }
